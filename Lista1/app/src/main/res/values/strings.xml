@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lista1</string>
+    <string name="tak">TAK</string>
+    <string name="nie">NIE</string>
+    <string name="cheat">CHEAT</string>
+    <string name="question">QUESTION</string>
+    <string name="answer">Answer</string>
+    <string name="wyszukaj_online">WYSZUKAJ ONLINE</string>
+</resources>
