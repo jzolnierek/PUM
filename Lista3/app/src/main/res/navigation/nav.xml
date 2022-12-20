@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/allListsFragment">
+
+    <fragment
+        android:id="@+id/allListsFragment"
+        android:name="pl.edu.uwr.pum.lista3.AllListsFragment"
+        android:label="fragment_all_lists"
+        tools:layout="@layout/fragment_all_lists" >
+        <action
+            android:id="@+id/action_allListsFragment2_to_listDetailsFragment"
+            app:destination="@id/listDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listDetailsFragment"
+        android:name="pl.edu.uwr.pum.lista3.ListDetailsFragment"
+        android:label="fragment_list_details"
+        tools:layout="@layout/fragment_list_details" >
+        <argument
+            android:name="listTitle"
+            app:argType="string" />
+    </fragment>
+</navigation>
